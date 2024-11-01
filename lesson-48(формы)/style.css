@@ -1,0 +1,44 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+form div {
+    margin-top: 16px;
+}
+
+label,
+input,
+textarea button,
+select {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+form {
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 8px;
+    display: block;
+}
+
+input,
+textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    margin-top: 30px;
+    border-radius: 100px;
+    width: 410px;
+    height: 50px;
+    background: rgb(167, 172, 179);
+    font-weight: 600;
+
+    
+
+}
