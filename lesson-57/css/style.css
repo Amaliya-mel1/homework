@@ -1,0 +1,34 @@
+body {
+    background: #fadede;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.inner::before {
+    content: '';
+    position: absolute;
+    transform: translate(-150%, -10%);
+    background: #ff8d8d;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+}
+
+.inner::after {
+    content: '';
+    position: absolute;
+    transform: translate(50%, -10%);
+    background: #8dbbff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+}

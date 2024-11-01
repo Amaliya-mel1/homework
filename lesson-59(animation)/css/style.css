@@ -1,0 +1,98 @@
+body {
+    background: #ffffff;
+}
+
+.inner span {
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 15vh;
+    right: 50vh;
+    bottom: 15vh;
+    left: 50vh;
+    opacity: 0;
+}
+
+.inner__line {
+    background: #090101;
+    width: 200vh;
+    height: 2vh;
+    border-bottom: 2px solid #000000;
+}
+
+/* span:hover {
+    opacity: 1;
+    transition: all 2s 2s;
+} */
+
+.inner:hover span {
+    opacity: 1;
+    transition: 1s 2s;
+}
+
+
+
+.inner__line:hover{
+    width: 1000vh;
+    height: 40vh;
+    transition: 1s ease-in-out;
+}
+
+
+
+/* ================================================ */
+
+.inner__line:hover {
+    animation: color-line 2s ease-in-out infinite alternate;
+}
+
+@keyframes color-line {
+    0% {
+        background: #534e44;
+    }
+    50% {
+        background: #6ca1d3;
+    }
+    100% {
+        background: #42456e;
+    }
+}
+
+
+.ball {
+    width: 100px;
+    height: 500px;
+    background: #a26e6e;
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+    animation: render 2s 2s infinite alternate;
+}
+
+@keyframes render {
+    0% {
+        left: 0%; top: 10px;
+        background: #6ca1d3;
+    }
+    25% {
+        right: 25%; top: 10px;
+        background: #6ca1d3;
+    }
+    50% {
+        right: 75%; top: 10px;
+        background: #6ca1d3;
+    }
+    75% {
+        left: 93%; top: 10px;
+        background: #6ca1d3;
+    }
+    /* 100% {
+        left: 100%; top: 10px;
+        background: #6ca1d3;
+    } */
+}
+
