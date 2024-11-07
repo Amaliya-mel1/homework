@@ -16,10 +16,13 @@
 
 }
 
+
 .about__inner {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+    grid-template-columns: repeat(2, auto 1fr);
+    align-items: center;
+    min-height: 500px;
+    gap: 165px;
 }
 
 .tab-controls {
@@ -40,17 +43,6 @@
 
 }
 
-.tab-controls__link:hover {
-    color: var(--generalOne-text);
-    font-family: 'Inter';
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.13;
-    align-self: center;
-    opacity: 1;
-
-}
-
 .tab-controls__link--active {
     color: var(--generalOne-text);
     font-family: 'Inter';
@@ -59,7 +51,6 @@
     line-height: 1.13;
     align-self: center;
     opacity: 1;
-
 }
 
 .tab-content {
@@ -82,9 +73,39 @@
     justify-content: end;
 }
 
+#tab2 .about__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    align-items: center;
+}
+
+#tab3 .about__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    justify-self: start;
+}
+
 .about__heading {
     display: flex;
     gap: 45px;
+    align-items: center;
+}
+
+#tab2 .about__heading {
+    display: grid;
+    gap: 45px;
+}
+
+#tab3 .about__heading {
+    display: grid;
+    gap: 45px;
+}
+
+#tab2 .about__img img {
+    border-radius: 12px;
+
 }
 
 .about__title {
@@ -93,25 +114,42 @@
     color: #ffffffcc;
     font-family: Oranienbaum;
     font-size: 56px;
-    max-width: 374px;
-    font-weight: 400;
-    height: 255px;
+    height: 273px;
 }
+
+#tab2 .about__title {}
 
 .about__text {
     color: #ffffffcc;
     font-family: 'Inter';
-    font-size: 16px;
     font-weight: 300;
     line-height: 1.14;
     margin-bottom: 15px;
     max-width: 410px;
 }
 
+#tab3 .about__text {
+    max-width: 460px;
+}
+
+/* #tab2 .about__text {
+    margin-bottom: 0;
+} */
+
 .about__video video {
     width: 376px;
     height: 212px;
-    border-radius: 20px;
+    border-radius: 12px;
+}
+
+.about__item {
+    color: #ffffffcc;
+    font-family: 'Inter';
+    font-weight: 300;
+    line-height: 1.13;
+    margin-bottom: 4px;
+    width: 100%;
+    max-width: 700px;
 }
 
 /* ==================================================================== */
