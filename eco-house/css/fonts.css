@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Inter 18pt';
+    src: local('Inter 18pt Medium'), local('Inter18pt-Medium'),
+        url('fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oranienbaum';
+    src: local('Oranienbaum'), local('Oranienbaum-Regular'),
+        url('fonts/Oranienbaum-Regular.woff2') format('woff2'),
+        url('fonts/Oranienbaum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: local('Golos Text Regular'), local('GolosText-Regular'),
+        url('fonts/GolosText-Regular.woff2') format('woff2'),
+        url('fonts/GolosText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: local('Golos Text SemiBold'), local('GolosText-SemiBold'),
+        url('fonts/GolosText-SemiBold.woff2') format('woff2'),
+        url('fonts/GolosText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: local('Inter 18pt Regular'), local('Inter18pt-Regular'),
+        url('fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('fonts/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: local('Inter 28pt Light'), local('Inter28pt-Light'),
+        url('fonts/Inter28pt-Light.woff2') format('woff2'),
+        url('fonts/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: local('Golos Text Medium'), local('GolosText-Medium'),
+        url('fonts/GolosText-Medium.woff2') format('woff2'),
+        url('fonts/GolosText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: local('Inter 18pt SemiBold'), local('Inter18pt-SemiBold'),
+        url('fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('fonts/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: local('Golos Text Bold'), local('GolosText-Bold'),
+        url('fonts/GolosText-Bold.woff2') format('woff2'),
+        url('fonts/GolosText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

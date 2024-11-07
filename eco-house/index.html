@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЭкоДом</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body .body--opened-modal">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <a class="logo" href="/">
+                            <p>ЭкоДом</p>
+                        </a>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#program">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#gallery">
+                                        Строительство домов
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#testimonials">
+                                        Работы
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#contact">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="burger-icon" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="header__hero hero">
+                <div class="container-center">
+                    <div class="hero__inner">
+                        <div class="hero__content">
+                            <div class="hero__info">
+                                <span>Свобода. Доступность. Уникальность</span>
+                            </div>
+                            <h1 class="hero__title">
+                                Построй дом <br> своей мечты
+                            </h1>
+                            <p class="hero__text">
+                                Мы построим тот дом, о котором вы мечтаете
+                            </p>
+                            <a class="hero__button button" href="#">
+                                <img src="/projects/eco-house/img/icon/play-little-light.svg" alt="">
+                                <p class="hero__button-text">
+                                    Построй свой дом
+                                </p>
+                            </a>
+                        </div>
+                        <div class="header__video">
+                            <video autoplay muted loop id="myVideo">
+                                <source src="../eco-house/video-gif/header-bg.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="main__about about">
+                <div class="container-center">
+                    <div class="about__inner">
+                        <ul class="tab-controls">
+                            <li class="tab-controls__item">
+                                <a class="tab-controls__link tab-controls__link--active" href="#tab1">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="tab-controls__item">
+                                <a class="tab-controls__link" href="#tab2">
+                                    Руководство
+                                </a>
+                            </li>
+                            <li class="tab-controls__item">
+                                <a class="tab-controls__link" href="#tab3">
+                                    Почему мы?
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-program tab-content tab-content--show" id="tab1">
+                            <div class="about__content">
+                                <div class="about__heading">
+                                    <h2 class="about__title title">
+                                        Липецкая компания "ЭкоДом"
+                                    </h2>
+                                    <div class="about__video">
+                                        <video controls poster="../eco-house/img/content/company.jpeg" id="myVideo">
+                                            <source src="../eco-house/video-gif/hause.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <p class="about__text">
+                                    В зависимости от пожеланий клиентов, мы можем построить дом любой сложности как по
+                                    уже готовым, так и по индивидуальным проектам, разработку которых наши специалисты
+                                    также предоставляют.
+                                </p>
+                                <p class="about__text">
+                                    работает в сфере строительства уже более 13 лет. На данный момент более 500 семей
+                                    стали обладателями собственных домов благодаря нашей компании. За это время у нас
+                                    накопился значительный опыт в работе эффективного и надежного строительства домов,
+                                    что вызывает доверие у наших текущих и будущих клиентов.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-program tab-content" id="tab2">
+                            <div class="about__content">
+                                <div class="about__heading">
+                                    <h2 class="about__title title">
+                                        Здравствуйте, меня зовут Евгений Халипа
+                                    </h2>
+                                    <div class="about__video">
+                                        <video controls poster="../eco-house/img/content/company.jpeg" id="myVideo">
+                                            <source src="../eco-house/video-gif/hause.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <p class="about__text">
+                                    Я, как руководитель отдела, гарантирую вам, что ваш дом будет построен качественно,
+                                    в срок.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-program tab-content" id="tab3">
+                            <div class="about__content">
+                                <div class="about__heading">
+
+                                    <div class="about__video">
+                                        <video controls poster="../eco-house/img/content/company.jpeg" id="myVideo">
+                                            <source src="../eco-house/video-gif/hause.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                </div>
+                                <ul class="about__list">
+                                    <li class="about__item">
+                                        Отработаны процессы и накоплен огромный опыт.
+                                    </li>
+                                    <li class="about__item">
+                                        Строим под ключ: от геоизысканий участка до ландшафтных работ.
+                                    </li>
+                                    <li class="about__item">
+                                        Благодаря комплексному подходу с нами спокойно.
+                                    </li>
+                                    <li class="about__item">
+                                        Мы всегда дорабатываем проект дома под выбранный участок и потребности каждого
+                                        из будущих жильцов.
+                                    </li>
+                                    <li class="about__item">
+                                        Строгое соблюдение ГОСТ, СНиП.
+                                    </li>
+                                    <li class="about__item">
+                                        Полный цикл — от лесозаготовки до готового дома под ключ.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__wrapper">
+                        <div class="footer__col">
+                            <h6 class="footer__title">
+                                О компании
+                            </h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Лицензии
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Как мы работаем
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Документы
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        О нас
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Контроль качества и гарантии
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Новости
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Вакансии
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Партнеры
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Выставочная площадка
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h6 class="footer__title">
+                                Строительство
+                            </h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Каркасные дома
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Кирпичные дома
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Бани и сауны
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Гаражи
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Крыши
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h6 class="footer__title">
+                                Продажа
+                            </h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Дома и коттеджи
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Земельные участки
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Объекты на карте
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h6 class="footer__title">
+                                Проекты домов
+                            </h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Каркасные дома
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Кирпичные дома
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Бани
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Хозблоки
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Гаражи
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <h6 class="footer__title">
+                                Цены
+                            </h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Акции и скидки
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        Узнать цену онлайн
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        Хозблоки
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        Гаражи
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#program">
+                                        <h6 class="footer__title">
+                                            Часто задаваемые вопросы
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#gallery">
+                                        <h6 class="footer__title">
+                                            Кредитование
+                                        </h6>
+                                    </a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a class="footer__col-link" href="#testimonials">
+                                        <h6 class="footer__title">
+                                            Наши работы
+                                        </h6>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__wrapper">
+                        <div class="footer__col">
+                            <a class="footer__logo logo" href="/">
+                                <p>ЭкоДом</p>
+                            </a>
+                            <address class="footer__col-tel">
+                                <a class="footer__col-number" href="tel:+7474242424">
+                                    +7 (474) 24 24 24
+                                </a>
+                                <a class="footer__col-number" href="tel:+79065505555">
+                                    +7 (906) 550-55-55
+                                </a>
+                            </address>
+                            <address class="social">
+                                <ul class="social__list">
+                                    <li class="social__item">
+                                        <a class="social__link" href="#" onclick="return false;">
+                                            <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <defs>
+                                                    <clipPath id="clip39_2641">
+                                                        <rect id="youtube 1" rx="0.000000" width="29.000000"
+                                                            height="29.000000" transform="translate(0.500000 0.500000)"
+                                                            fill="white" fill-opacity="0" />
+                                                    </clipPath>
+                                                </defs>
+                                                <rect id="youtube 1" rx="0.000000" width="29.000000" height="29.000000"
+                                                    transform="translate(0.500000 0.500000)" fill="#FFFFFF"
+                                                    fill-opacity="0" />
+                                                <g clip-path="url(#clip39_2641)">
+                                                    <path id="Vector"
+                                                        d="M25.6 4.39C31.46 10.25 31.46 19.74 25.6 25.6C19.75 31.46 10.25 31.46 4.39 25.6C-1.47 19.74 -1.47 10.25 4.39 4.39C10.25 -1.47 19.75 -1.47 25.6 4.39Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                    <path id="Vector"
+                                                        d="M9.49 8.65C11.28 8.5 13.4 8.43 15.02 8.43C16.64 8.43 18.72 8.5 20.55 8.65C22.67 8.83 23.75 9.19 24.04 11.31C24.18 12.28 24.25 13.61 24.25 14.97C24.25 16.34 24.18 17.7 24.04 18.64C23.75 20.79 22.67 21.11 20.55 21.29C18.72 21.47 16.64 21.51 15.02 21.51C13.4 21.51 11.28 21.47 9.49 21.29C7.37 21.11 6.25 20.79 5.97 18.64C5.84 17.42 5.78 16.2 5.79 14.97C5.78 13.75 5.84 12.52 5.97 11.31C6.25 9.19 7.37 8.83 9.49 8.65Z"
+                                                        fill="#1F252D" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                    <path id="Vector"
+                                                        d="M13.15 12.21L17.96 14.97L13.15 17.77L13.15 12.21Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a class="social__link" href="#" onclick="return false;">
+                                            <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <clipPath id="clip39_2647">
+                                                    <rect id="telega 1" rx="0.000000" width="29.000000"
+                                                        height="29.000000" transform="translate(0.500000 0.500000)"
+                                                        fill="white" fill-opacity="0" />
+                                                </clipPath>
+                                                <rect id="telega 1" rx="0.000000" width="29.000000" height="29.000000"
+                                                    transform="translate(0.500000 0.500000)" fill="#FFFFFF"
+                                                    fill-opacity="0" />
+                                                <g clip-path="url(#clip39_2647)">
+                                                    <path id="Vector"
+                                                        d="M25.6 4.39C31.46 10.25 31.46 19.74 25.6 25.6C19.75 31.46 10.25 31.46 4.39 25.6C-1.47 19.74 -1.47 10.25 4.39 4.39C10.25 -1.47 19.75 -1.47 25.6 4.39Z"
+                                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                    <path id="Vector"
+                                                        d="M6.07 14.62C10.2 12.89 15.19 10.43 19.52 8.77C23.51 7.3 23.44 7.7 22.84 11.7C22.38 14.89 21.84 18.08 21.31 21.28C21.11 22.81 20.31 23.61 18.65 22.68L13.46 19.02C12.72 18.42 12.92 17.95 13.52 17.35L18.31 12.83C19.58 11.56 18.98 11.1 17.51 12.09L10.93 16.55C10 17.22 9 17.22 7.93 16.89L5.67 16.09C4.21 15.55 5.34 14.95 6.07 14.62L6.07 14.62Z"
+                                                        fill="#1F252D" fill-opacity="1.000000" fill-rule="evenodd" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a class="social__link" href="#" onclick="return false;">
+                                            <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <defs />
+                                                <path id="Combined-Shape"
+                                                    d="M0 15C0 6.71582 6.71582 0 15 0C23.2842 0 30 6.71582 30 15C30 23.2842 23.2842 30 15 30C6.71582 30 0 23.2842 0 15ZM14.9902 15.2412C17.2021 15.2412 19 13.5049 19 11.3711C19 9.23633 17.2021 7.5 14.9902 7.5C12.7783 7.5 10.9795 9.23633 10.9795 11.3711C10.9795 13.5049 12.7783 15.2412 14.9902 15.2412ZM18.9512 17.4697C18.2256 17.9092 17.4385 18.2207 16.6221 18.4004L18.8643 20.5645C19.3232 21.0068 19.3232 21.7246 18.8643 22.168C18.4053 22.6104 17.6621 22.6104 17.2031 22.168L15 20.041L12.7979 22.168C12.5684 22.3887 12.2666 22.5 11.9658 22.5C11.666 22.5 11.3652 22.3887 11.1357 22.168C10.6768 21.7246 10.6768 21.0068 11.1357 20.5645L13.377 18.4004C12.5605 18.2207 11.7734 17.9082 11.0488 17.4697C10.5 17.1357 10.335 16.4355 10.6807 15.9053C11.0254 15.375 11.751 15.2148 12.3008 15.5488C13.9424 16.5459 16.0566 16.5459 17.6992 15.5488C18.249 15.2148 18.9736 15.375 19.3193 15.9053C19.665 16.4355 19.5 17.1357 18.9512 17.4697Z"
+                                                    clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000"
+                                                    fill-rule="evenodd" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a class="social__link" href="#" onclick="return false;">
+                                            <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <defs />
+                                                <path id="Combined-Shape"
+                                                    d="M0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0C6.71582 0 0 6.71582 0 15ZM24.4141 14.4258C24.4121 19.3428 20.4121 23.3438 15.4941 23.3457L15.4912 23.3457C13.998 23.3447 12.5312 22.9707 11.2285 22.2598L6.5 23.5L7.76562 18.8779C6.98438 17.5254 6.57422 15.9912 6.5752 14.4189C6.57715 9.50098 10.5781 5.5 15.4941 5.5C17.8809 5.50098 20.1201 6.42969 21.8037 8.11621C23.4883 9.80176 24.415 12.043 24.4141 14.4258Z"
+                                                    clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000"
+                                                    fill-rule="evenodd" />
+                                                <path id="Combined-Shape"
+                                                    d="M11.4473 20.6445L8.6416 21.3799L9.39062 18.6445L9.21484 18.3643C8.47266 17.1836 8.08008 15.8193 8.08105 14.4189C8.08301 10.3311 11.4082 7.00586 15.498 7.00586C17.4775 7.00684 19.3389 7.77832 20.7393 9.17969C22.1387 10.5811 22.9092 12.4434 22.9082 14.4248C22.9062 18.5127 19.5811 21.8379 15.4951 21.8379L15.4922 21.8379C14.1611 21.8379 12.8564 21.4805 11.7188 20.8047L11.4473 20.6445ZM19.5615 16.2861C19.7842 16.3975 19.9326 16.4531 19.9883 16.5459C20.0439 16.6396 20.0439 17.085 19.8584 17.6064C19.6729 18.127 18.7822 18.6016 18.3535 18.666C17.9697 18.7236 17.4844 18.7471 16.9502 18.5771C16.627 18.4746 16.2119 18.3379 15.6797 18.1084C13.4443 17.1426 11.9844 14.8916 11.8721 14.7432C11.7607 14.5938 10.9629 13.5342 10.9629 12.4375C10.9629 11.3408 11.5381 10.8008 11.7422 10.5781C11.9473 10.3545 12.1885 10.2988 12.3369 10.2988C12.4854 10.2988 12.6338 10.3008 12.7637 10.3066C12.7803 10.3076 12.7969 10.3076 12.8135 10.3076C12.9434 10.3066 13.1055 10.3057 13.2656 10.6895C13.4512 11.1357 13.8965 12.2324 13.9521 12.3447C14.0078 12.4561 14.0459 12.5859 13.9707 12.7354C13.8965 12.8838 13.8594 12.9766 13.748 13.1064C13.6367 13.2363 13.5146 13.3975 13.4141 13.4971C13.3027 13.6084 13.1865 13.7285 13.3164 13.9521C13.4463 14.1748 13.8936 14.9053 14.5557 15.4961C15.4072 16.2549 16.126 16.4902 16.3486 16.6025C16.5713 16.7139 16.7012 16.6953 16.8311 16.5459C16.9609 16.3975 17.3887 15.8955 17.5371 15.6729C17.6855 15.4492 17.834 15.4863 18.0381 15.5605C18.2422 15.6357 19.3379 16.1748 19.5615 16.2861Z"
+                                                    clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000"
+                                                    fill-rule="evenodd" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a class="social__link" href="#" onclick="return false;">
+                                            <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <defs />
+                                                <path id="Combined-Shape"
+                                                    d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.2217 19.7354C16.0732 19.8906 15.7842 19.9229 15.7842 19.9229L14.8281 19.9229C14.8281 19.9229 12.7188 20.0469 10.8604 18.1484C8.83301 16.0762 7.04395 11.9658 7.04395 11.9658C7.04395 11.9658 6.94043 11.6963 7.05176 11.5664C7.17773 11.4199 7.52148 11.4102 7.52148 11.4102L9.80762 11.3955C9.80762 11.3955 10.0225 11.4307 10.1768 11.542C10.3047 11.6338 10.376 11.8057 10.376 11.8057C10.376 11.8057 10.7451 12.7227 11.2344 13.5518C12.1895 15.1719 12.6338 15.5264 12.958 15.3525C13.4307 15.0996 13.2891 13.0625 13.2891 13.0625C13.2891 13.0625 13.2979 12.3242 13.0508 11.9941C12.8604 11.7393 12.5 11.665 12.3418 11.6445C12.2119 11.627 12.4238 11.334 12.6973 11.2021C13.1094 11.0049 13.835 10.9932 14.6934 11.002C15.3633 11.0088 15.5557 11.0498 15.8164 11.1113C16.4238 11.2559 16.4043 11.7158 16.3633 12.71C16.3516 13.0068 16.3369 13.3516 16.3369 13.75C16.3369 13.8398 16.335 13.9355 16.332 14.0332C16.3174 14.543 16.3018 15.126 16.6436 15.3428C16.8184 15.4531 17.2461 15.3594 18.3174 13.5732C18.8262 12.7275 19.2061 11.7324 19.2061 11.7324C19.2061 11.7324 19.29 11.5547 19.4189 11.4785C19.5508 11.4014 19.7295 11.4248 19.7295 11.4248L22.1348 11.4102C22.1348 11.4102 22.8584 11.3252 22.9746 11.6465C23.0977 11.9824 22.7051 12.7676 21.7217 14.0527C20.79 15.2734 20.3359 15.7227 20.3779 16.1201C20.4082 16.4102 20.7031 16.6729 21.2686 17.1875C22.5479 18.3535 22.8135 18.9219 22.8574 18.9922C23.3877 19.8545 22.2695 19.9229 22.2695 19.9229L20.1328 19.9521C20.1328 19.9521 19.6738 20.041 19.0703 19.6338C18.7529 19.4209 18.4443 19.0723 18.1494 18.7412C17.7002 18.2354 17.2842 17.7676 16.9297 17.8779C16.334 18.0635 16.3516 19.3223 16.3516 19.3223C16.3516 19.3223 16.3564 19.5918 16.2217 19.7354Z"
+                                                    clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000"
+                                                    fill-rule="evenodd" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </address>
+                            <div class="footer__col-copy">
+                                <div class="footer__col-copy">
+                                    «Эко Дом» Строительство каркасных домов
+                                </div>
+                                <img src="img/icons/copy.svg" alt="">
+                                2012-2021 Все права защищены
+                            </div>
+                        </div>
+                        <div class="footer__col">
+                            <div class="footer__img">
+                                <img src="../eco-house/img/content/ecoHouse.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal">
+        <div class="modal__window">
+            <a class="modal__cancel" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="11.25" stroke="#E1D9E1" stroke-width="1.5" />
+                    <path
+                        d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732"
+                        stroke="#E1D9E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+            <img class="modal__img" src="img/decor/cupcakes-modal.png" alt="">
+            <h3 class="modal__title">
+                Удиви своих близких вкусными капкейками
+            </h3>
+            <p class="modal__text">
+                Оставь свой e-mail, и мы вышлем рецепт на почту
+            </p>
+            <form class="modal__form">
+                <label class="modal__form-label field">
+                    <input class="field__input" type="email" placeholder="E-mail">
+                    <span>Введите e-mail</span>
+                </label>
+                <button class="button" type="submit">
+                    Получить подарок
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/fslightbox.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

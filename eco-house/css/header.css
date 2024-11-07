@@ -1,0 +1,166 @@
+.header__top {}
+
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+}
+
+.logo {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 11;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    gap: 4vh 18px;
+}
+
+.nav__item {}
+
+.nav__link {
+    display: block;
+    padding: 5px 0;
+    transition: var(--transition);
+}
+
+.nav__link:hover {
+    color: var(--accentOne-bg);
+}
+
+.burger-icon {}
+.burger-icon {
+    display: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
+
+
+.burger-icon span,
+.burger-icon span::after,
+.burger-icon span::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    background: var(--generalOne-text);
+    transition: var(--transition);
+}
+
+.burger-icon span {
+    position: relative;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+    content: '';
+    position: absolute;
+}
+
+.burger-icon span::before {
+    top: -8px;
+}
+
+
+.burger-icon span::after {
+    bottom: -8px;
+}
+
+
+.body--opened-menu .burger-icon span {
+    background: transparent;
+}
+
+.body--opened-menu .burger-icon span::before {
+    top: 0px;
+    transform: rotate(45deg);
+    background: var(--accentOne-bg);
+}
+
+.body--opened-menu .burger-icon span::after {
+    bottom: 0px;
+    transform: rotate(-45deg);
+    background: var(--accentOne-bg);
+}
+
+.header__hero {
+    padding: 160px 0 205px;
+}
+
+.hero {}
+
+.hero__inner {
+    display: block;
+}
+
+.hero__content {
+    max-width: 466px;
+}
+
+.hero__info {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.13;
+    margin-bottom: 12px;
+}
+
+
+.hero__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.13;
+    margin-bottom: 46px;
+}
+
+.hero__button {
+    max-width: 254px;
+}
+
+.hero__button-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.13;
+}
+
+.header__video {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header__video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__video::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #1f252dae;
+}
