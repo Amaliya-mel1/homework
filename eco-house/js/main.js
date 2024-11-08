@@ -60,4 +60,33 @@
         tabControl.classList.add('tab-controls__link--active')
         tabContent.classList.add('tab-content--show')
     }
+
+    // clider
+
+    // new Swiper('.estimates__slider', {
+
+    //     spaceBetween: 0,
+    //     slidesPerView: 1,
+    //     centeredSlides: true,
+
+
+    //     navigation: {
+    //         nextEl: '.estimates__next',
+    //         prevEl: '.estimates__prev',
+    //     },
+
+    //     scrollbar: {
+    //         el: '.swiper-scrollbar',
+    //         draggable: true,
+    //     },
+
+    //     breakpoints: {
+    //         901: {
+    //             slidesPerView: 1.5,
+    //         },
+    //         1201: {
+    //             slidesPerView: 2.1,
+    //         }
+    //     }
+    // });
 })()
