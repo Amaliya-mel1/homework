@@ -418,6 +418,8 @@
     #tab2 .about__title {
         font-size: 30px;
         height: 100%;
+        justify-content: center;
+        margin-top: 0;
     }
 
     .about__item {
@@ -527,6 +529,10 @@
         gap: 10px;
     }
 
+    #tab2 .about__img {
+        margin-bottom: -5px;
+    }
+
     .about__text {
         max-width: 390px;
         text-align: center;
@@ -536,7 +542,7 @@
         display: flex;
         flex-direction: column;
         min-width: 600px;
-        gap: 20px;
+        gap: 25px;
         align-items: center;
         justify-self: start;
     }
