@@ -1155,7 +1155,7 @@ transform: rotate(45deg);
 
 
 .main__accordion-info {
-    background: var(--general-bg-2);
+    background: var(--accent-text);
     padding: 150px 0 150px;
     color: var(--general-text-1);
     font-family: Open Sans, sans-serif;
@@ -1399,7 +1399,7 @@ transform: rotate(45deg);
 
 .main__form {
     padding: 150px 0 150px;
-    background: var(--general-bg-2);
+background: var(--accent-text);
     line-height: 1;
 }
 
@@ -1800,7 +1800,7 @@ transform: rotate(45deg);
         background: var(--general-text-1);
         inset: 0;
         width: 100vw;
-        z-index: 10;
+        z-index: 12;
         padding: 26vh 15px 30px 10vw;
         font-size: 24px;
 
