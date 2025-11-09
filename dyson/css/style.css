@@ -1800,7 +1800,7 @@ background: var(--accent-text);
         background: var(--general-text-1);
         inset: 0;
         width: 100vw;
-        z-index: 12;
+        z-index: 11;
         padding: 26vh 15px 30px 10vw;
         font-size: 24px;
 
@@ -3196,10 +3196,16 @@ background: var(--accent-text);
             height: 40px;
             font-size: 12px;
         }
-        .form__info--name {
-            max-width: 550px;
-            width: 100%;
+
+
+        .form__connection {
+        width: 100%;
         }
+    
+       .form__news {
+        width: 100%;
+        }
+    
     
         .checkbox {
             /* height: 40px; */
